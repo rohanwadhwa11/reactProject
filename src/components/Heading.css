@@ -1,0 +1,75 @@
+@media(max-width:1100px) {
+    .head-img{
+        width: 20rem !important;
+    }
+    .faq{
+        width: 80% !important;
+    }
+    .need-img{
+        width: 28rem !important;
+        height: 28rem !important;
+    }
+}
+
+@media(max-width:800px){
+    .head-img{
+        width: 15rem !important;
+    }
+    .faq{
+        width: 80% !important;
+     }
+    .need-img{
+        width: 25rem !important;
+        height: 25rem !important;
+    }
+}
+@media(max-width:600px){
+   .head-img{
+    width: 10rem !important;
+   }
+   .faq{
+    width: 80% !important;
+    }
+    .need-img{
+        width: 20rem !important;
+        height: 20rem !important;
+    }
+}
+@media(max-width:400px){
+    .head-img{
+     width: 8rem !important;
+    }
+    .need-img{
+        width: 18rem !important;
+        height: 18rem !important;
+    }
+    .logo{
+        height: 4.1rem !important;
+        width: 4.3rem !important;
+    }
+    .head-btn{
+        width: 70% !important;
+    }
+    .container{
+        width: 6rem !important;
+        font-size: 0.8rem;
+        height: 9rem !important;
+    }
+    .details{
+        margin: 0.6rem 2rem !important;
+        width: 80% !important;
+    }
+    .video{
+        height: 20rem !important
+    }
+    .review{
+        width: 18rem !important;
+        margin: 0 0.5rem !important;
+    }
+    .list{
+        left: -3rem !important
+    }
+    .faq{
+        width: 80% !important;
+    }
+ }

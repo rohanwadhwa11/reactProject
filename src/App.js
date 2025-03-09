@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Navbar from "./components/Navbar";
+import Heading from "./components/Heading";
+import Drawback from "./components/Drawback";
+import Courses from "./components/Courses";
+import Reviews from "./components/Reviews";
+import Need from "./components/Need";
+import Features from "./components/features";
+import Enroll from "./components/Enroll";
+import FAQs from "./components/FAQs";
+import Footer from "./components/Footer";
 
 function App() {
+  let drawbacks = [
+    "Struggle with complex software tools",
+    "Feel stuck without structured learning",
+    "Miss out on monetizing your skills"
+  ];
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <>
+  <Navbar />
+  <Heading />
+  <Drawback drawback={drawbacks}/>
+  <Courses />
+  <Reviews />
+  <Need />
+  <Features />
+  <Enroll />
+  <FAQs />
+  <Footer />
+  </>
+   
   );
 }
 
