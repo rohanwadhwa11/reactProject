@@ -12,9 +12,18 @@ import Footer from "./components/Footer";
 
 function App() {
   let drawbacks = [
-    "Struggle with complex software tools",
-    "Feel stuck without structured learning",
-    "Miss out on monetizing your skills"
+    {
+      tag: "",
+      desc: "Struggle with complex software tools",
+    },
+    {
+      tag: "",
+      desc: "Feel stuck without structured learning",
+    },
+    {
+      tag: <i class='fa-solid fa-xmark'></i>,
+      desc : "Miss out on monetizing your skills"
+    }
   ];
   return (
   <>

@@ -5,7 +5,7 @@ export default function Reviews() {
     let container = {
         height: "30rem",
         width: "30rem",
-        borderRadius: "10px",
+        borderRadius: "20px",
         boxShadow: "1px 1px 5px #3A4DC3",
     };
     let iStyle = {
@@ -28,15 +28,15 @@ export default function Reviews() {
     </div>
     <div className='d-flex justify-content-center mb-5'>
         <div style={reviewStyle} className='text-center  pt-4 px-2 review'>
-            <h6>Aditi Verma</h6>
-            <p>20<br></br><br></br>
+            <h6 className='fw-normal'>Aditi Verma</h6>
+            <p>20<br></br>
             I always wanted to learn digital art, but tutorials were confusing.
                 This course made everything so simple! <br></br>Now, I'm taking commissions online!
             </p>
         </div>
         <div style={reviewStyle} className='text-center pt-4 px-2 review'> 
-            <h6>Rajesh Khanna</h6>
-            <p>30<br></br><br></br>
+            <h6 className='fw-normal'>Rajesh Khanna</h6>
+            <p>30<br></br>
             Switching from traditional art to digital felt overwhelming, but this course change everything!
                 The structured lessons helped me master <br></br>Procreate in weeks!
             </p>

@@ -12,7 +12,7 @@ export default function Enroll() {
       let listStyle = {
         listStyle: "none",
         margin: "0 3rem",
-        borderRadius: "15px",
+        borderRadius: "20px",
         border: "1px solid #3A4DC3",
         width: "90%",
         position: "relative",
@@ -28,7 +28,7 @@ export default function Enroll() {
     <h3 className='mb-3'>Enroll Now for &#8377;7,999</h3>
     <ul>
         <li style={listStyle} className='text-center my-2 py-1 list'>Secure Your Spot for Just &#8377;79</li>
-        <li style={listStyle} className='text-center my-2 py-1 list'>Bonus Offer: Apply a coupon code within 15 minutes to unlock</li>
+        <li style={listStyle} className='text-center my-2 py-1 px-1 list'>Bonus Offer: Apply a coupon code within 15 minutes to unlock</li>
         <li style={listStyle} className='text-center my-2 py-1 list'>Exclusive Brush & Texture Pack</li>
         <li style={listStyle} className='text-center my-2 py-1 list'>Extra Live Q & A Session with mentors</li>
     </ul>

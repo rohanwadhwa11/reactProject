@@ -22,6 +22,15 @@
         width: 25rem !important;
         height: 25rem !important;
     }
+    .details{
+        margin: 0.6rem 2rem !important;
+        width: 80% !important;
+    }
+    .container{
+        width: 7rem !important;
+        font-size: 0.8rem;
+        height: 9rem !important;
+    }
 }
 @media(max-width:600px){
    .head-img{
@@ -33,6 +42,25 @@
     .need-img{
         width: 20rem !important;
         height: 20rem !important;
+    }
+    .details{
+        margin: 0.6rem 2rem !important;
+        width: 85% !important;
+    }
+    .container{
+        width: 7rem !important;
+        font-size: 0.8rem;
+        height: 9rem !important;
+    }
+    .video{
+        height: 25rem !important
+    }
+    .review p{
+        font-size: 0.7rem !important;
+    }
+    .review{
+        width: 13rem !important;
+        margin: 0 0.8rem !important;
     }
 }
 @media(max-width:400px){
@@ -71,5 +99,8 @@
     }
     .faq{
         width: 80% !important;
+    }
+    .review p{
+        font-size: 0.6rem !important;
     }
  }

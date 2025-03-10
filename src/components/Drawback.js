@@ -6,7 +6,7 @@ export default function Drawback(props) {
         display: "flex",
         justifyContent: "Space-around",
         alignItems: "center",
-        height: "11rem"
+        height: "13rem"
       }
   return (
     <div>
